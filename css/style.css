@@ -145,3 +145,24 @@ ul {
   margin-bottom: 25px;
   line-height: 120%;
 }
+
+.premier {
+  margin-bottom: 150px;
+}
+
+.premier__inner {
+  display: flex;
+  gap: 60px;
+}
+
+.premier__text {
+  margin-bottom: 15px;
+}
+
+.premier__img {
+  margin-bottom: 20px;
+}
+
+.premier__btn {
+  margin-bottom: 20px;
+}
