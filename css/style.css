@@ -212,6 +212,15 @@ ul {
   padding-top: 1px;
 }
 
+.video__btn:hover {
+  color: #53A1CB;
+  border: 1px solid #53A1CB;
+}
+
+.video__btn path {
+  transition: all .3s;
+}
+
 .video__btn:hover path {
   fill: #53A1CB;
 }
