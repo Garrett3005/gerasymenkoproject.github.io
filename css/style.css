@@ -18,7 +18,7 @@ html {
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  background: #070A1B;
+  background: linear-gradient(180deg, #070A1B 0%, #2A3170 100%);
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
@@ -45,6 +45,10 @@ ul {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.header {
+  background: #070A1B;
 }
 
 .header__top {
@@ -117,6 +121,10 @@ ul {
   margin-bottom: 50px;
 }
 
+.footer {
+  background: #070A1B;
+}
+
 .footer__inner {
   display: flex;
   justify-content: space-between;
@@ -175,7 +183,7 @@ ul {
   color: #F402A2;
   text-align: center;
   padding: 14px;
-  border: 2px solid #F402A2;
+  border: 1px solid #F402A2;
   transition: all .3s;
 }
 
@@ -204,7 +212,7 @@ ul {
   line-height: 120%;
   color: #F402A2;
   padding: 14px;
-  border: 2px solid #F402A2;
+  border: 1px solid #F402A2;
   transition: all .3s;
 }
 
@@ -238,9 +246,22 @@ ul {
 
 .design__cell-two {
   grid-row-end: -1;
+  display: flex;
+  align-items: flex-end;
 }
 
 .design__cell-three {
   grid-column-end: -1;
-  grid-row-end: -3;
+  grid-row-end: -1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.design__cell-text {
+  grid: -1;
+  margin-bottom: 15px;
+}
+
+.design-slider___item {
+  margin: 0 30px;
 }
