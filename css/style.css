@@ -265,3 +265,43 @@ ul {
 .design-slider___item {
   margin: 0 30px;
 }
+
+.slick-track {
+  margin-left: -30px;
+}
+
+.design-slider {
+  padding-bottom: 25px;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  bottom: 0;
+  left: 50;
+}
+
+.arrow-left {
+  transform: translateX(-80px);
+}
+
+.arrow-right {
+  transform: translateX(30px);
+}
+
+.design__box {
+  max-width: 90px;
+  margin: 150px auto;
+  padding: 0 10px;
+  display: flex;
+  gap: 60px;
+}
+
+.design__box-column {
+  width: 255px;
+}
+
+.design__box-text {
+  margin-bottom: 15px;
+}
