@@ -20,7 +20,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   background: linear-gradient(180deg, #070A1B 0%, #2A3170 100%);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 120%;
   color: #fff;
 }
@@ -238,6 +238,7 @@ ul {
   grid-template-columns: 255px 255px auto 330px;
   grid-template-rows: auto auto;
   gap: 14px 44px;
+  margin-bottom: 100px;
 }
 
 .design__cell-one {
@@ -262,7 +263,7 @@ ul {
   margin-bottom: 15px;
 }
 
-.design-slider___item {
+.design-slider__item {
   margin: 0 30px;
 }
 
@@ -279,7 +280,7 @@ ul {
   z-index: 10;
   cursor: pointer;
   bottom: 0;
-  left: 50;
+  left: 50%;
 }
 
 .arrow-left {
@@ -291,7 +292,7 @@ ul {
 }
 
 .design__box {
-  max-width: 90px;
+  max-width: 590px;
   margin: 150px auto;
   padding: 0 10px;
   display: flex;
