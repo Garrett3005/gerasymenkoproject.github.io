@@ -403,7 +403,7 @@ ul {
   }
 
   .header__content::before {
-    bottom: 70px;
+    bottom: 55px;
   }
 
 }
