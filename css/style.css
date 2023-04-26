@@ -368,7 +368,9 @@ ul {
   }
 
   .title-descr {
-    font-size: 18px;
+    font-size: 19px;
+    margin: 1px;
+
   }
 
   .concept {
@@ -398,6 +400,10 @@ ul {
 
   .design__box-column {
     width: 100%;
+  }
+
+  .header__content::before {
+    bottom: -50px;
   }
 
 }
