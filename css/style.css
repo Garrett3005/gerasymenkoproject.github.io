@@ -344,6 +344,12 @@ ul {
   }
 }
 
+@media(max-width:1080px) {
+  .header__content::before {
+    bottom: -50px;
+  }
+}
+
 @media(max-width:768px) {
   .header__logo {
     margin-left: 0;
@@ -404,6 +410,7 @@ ul {
   }
 
   .header__content::before {
+    margin: 25px;
     bottom: -25px;
   }
 
