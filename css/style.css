@@ -364,12 +364,13 @@ ul {
   }
 
   .title {
-    font-size: 72px;
+    font-size: 55px;
+    margin: -55px;
   }
 
   .title-descr {
     font-size: 19px;
-    margin: 1px;
+    margin: 62px;
 
   }
 
@@ -403,7 +404,7 @@ ul {
   }
 
   .header__content::before {
-    bottom: 55px;
+    bottom: -25px;
   }
 
 }
@@ -443,11 +444,16 @@ ul {
   }
 
   .header__content {
-    background-position: 49.2%;
+    background-position: 47.2%;
   }
 
   .list {
     justify-content: right;
+  }
+
+  .title-descr {
+    font-size: 15px;
+    margin: 62px;
   }
 }
 
