@@ -371,13 +371,12 @@ ul {
   }
 
   .title {
-    font-size: 55px;
-    margin: -55px;
+    font-size: 72px;
   }
 
   .title-descr {
     font-size: 19px;
-    margin: 62px;
+    margin: 1px;
 
   }
 
@@ -411,8 +410,12 @@ ul {
   }
 
   .header__content::before {
+<<<<<<< HEAD
     margin: 25px;
     bottom: -25px;
+=======
+    bottom: 55px;
+>>>>>>> parent of dacbccd (Confirm audit)
   }
 
 }
@@ -452,16 +455,11 @@ ul {
   }
 
   .header__content {
-    background-position: 47.2%;
+    background-position: 49.2%;
   }
 
   .list {
     justify-content: right;
-  }
-
-  .title-descr {
-    font-size: 15px;
-    margin: 62px;
   }
 }
 
