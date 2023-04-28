@@ -404,7 +404,7 @@ ul {
   }
 
   .header__content::before {
-    bottom: -25px;
+    bottom: -50px;
   }
 
 }
