@@ -346,7 +346,7 @@ ul {
 
 @media(max-width:1080px) {
   .header__content::before {
-    bottom: -50px;
+    bottom: -25px;
   }
 }
 
