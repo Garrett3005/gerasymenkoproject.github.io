@@ -347,7 +347,7 @@ ul {
 @media(max-width:1080px) {
   .header__content::before {
     margin-top: -25px;
-    bottom: -25px;
+    margin-bottom: -25px;
   }
 }
 
@@ -371,11 +371,11 @@ ul {
   }
 
   .title {
-    font-size: 72px;
+    font-size: 50px;
   }
 
   .title-descr {
-    font-size: 19px;
+    font-size: 18px;
     margin: 1px;
 
   }
@@ -410,12 +410,7 @@ ul {
   }
 
   .header__content::before {
-<<<<<<< HEAD
-    margin: 25px;
-    bottom: -25px;
-=======
-    bottom: 55px;
->>>>>>> parent of dacbccd (Confirm audit)
+    bottom: 50px;
   }
 
 }
@@ -455,7 +450,7 @@ ul {
   }
 
   .header__content {
-    background-position: 49.2%;
+    background-position: 47.2%;
   }
 
   .list {
