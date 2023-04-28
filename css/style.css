@@ -346,7 +346,8 @@ ul {
 
 @media(max-width:1080px) {
   .header__content::before {
-    margin-bottom: -75px;
+    margin-top: -25px;
+    margin-bottom: -25px;
   }
 }
 
@@ -376,6 +377,7 @@ ul {
   .title-descr {
     font-size: 18px;
     margin: 1px;
+    margin-bottom: 10px;
 
   }
 
@@ -409,7 +411,8 @@ ul {
   }
 
   .header__content::before {
-    bottom: 50px;
+    margin-top: -25px;
+    margin-bottom: -25px;
   }
 
 }
@@ -454,6 +457,11 @@ ul {
 
   .list {
     justify-content: right;
+  }
+
+  .title-descr {
+    font-size: 14px;
+    margin: 1px;
   }
 }
 
