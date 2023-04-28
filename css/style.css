@@ -59,7 +59,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 100px;
+  height: 100px;
 }
 
 .header__logo {
@@ -104,7 +104,7 @@ ul {
   content: "";
   background-image: url(../images/decor.svg);
   width: 50px;
-  min-height: 50px;
+  height: 50px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -133,7 +133,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 300px;
+  height: 300px;
 }
 
 .concept {
@@ -324,7 +324,7 @@ ul {
 
 @media(max-width:1366px) {
   .footer__inner {
-    min-height: 150px;
+    height: 150px;
   }
 }
 
@@ -366,12 +366,12 @@ ul {
 
   .list__link {
     width: 35px;
-    min-height: 35px;
+    height: 35px;
 
   }
 
   .title {
-    font-size: 50px;
+    font-size: 55px;
   }
 
   .title-descr {
@@ -411,8 +411,7 @@ ul {
   }
 
   .header__content::before {
-    margin-top: -25px;
-    margin-bottom: -25px;
+    bottom: 70px;
   }
 
 }
